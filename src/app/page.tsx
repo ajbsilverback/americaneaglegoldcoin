@@ -8,24 +8,24 @@ import { homeQA } from "@/data/qa-content";
 import { fetchProductSpot, formatUSD } from "@/lib/monexSpot";
 
 export const metadata: Metadata = {
-  title: "American Gold Buffalo | Expert Guide to 24-Karat Gold Bullion Coins",
+  title: "American Gold Eagle | Expert Guide to America's Most Popular Gold Coin",
   description:
-    "Comprehensive guide to American Gold Buffalo coins, America's purest gold bullion coin. 24-karat, .9999 fine gold, U.S. Mint legal tender. Learn about pricing, premiums, IRA eligibility, and investing.",
+    "Comprehensive guide to American Gold Eagle coins, America's most popular gold bullion coin. 22-karat, .9167 fine gold, U.S. Mint legal tender. Learn about pricing, premiums, IRA eligibility, and investing.",
   alternates: {
     canonical: SITE_CONFIG.canonicalDomain,
   },
   openGraph: {
-    title: "American Gold Buffalo | Expert Guide to 24-Karat Gold Bullion Coins",
+    title: "American Gold Eagle | Expert Guide to America's Most Popular Gold Coin",
     description:
-      "Comprehensive guide to American Gold Buffalo coins. 24-karat, .9999 fine gold, U.S. Mint legal tender bullion.",
+      "Comprehensive guide to American Gold Eagle coins. 22-karat, .9167 fine gold, U.S. Mint legal tender bullion.",
     url: SITE_CONFIG.domain,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "American Gold Buffalo | Expert Guide to 24-Karat Gold Bullion Coins",
+    title: "American Gold Eagle | Expert Guide to America's Most Popular Gold Coin",
     description:
-      "Comprehensive guide to American Gold Buffalo coins. 24-karat, .9999 fine gold, U.S. Mint legal tender.",
+      "Comprehensive guide to American Gold Eagle coins. 22-karat, .9167 fine gold, U.S. Mint legal tender.",
   },
 };
 
@@ -50,9 +50,9 @@ export default async function HomePage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: `${SITE_CONFIG.brandName} - Your Guide to American Gold Buffalo Coins`,
+    name: `${SITE_CONFIG.brandName} - Your Guide to American Gold Eagle Coins`,
     description:
-      "Comprehensive educational resource about American Gold Buffalo coins, America's purest gold bullion coin with 24-karat, .9999 fine purity.",
+      "Comprehensive educational resource about American Gold Eagle coins, America's most popular gold bullion coin with 22-karat, .9167 fine purity.",
     url: SITE_CONFIG.domain,
     publisher: {
       "@type": "Organization",
@@ -64,9 +64,9 @@ export default async function HomePage() {
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: "American Gold Buffalo Coin",
+    name: "American Gold Eagle Coin",
     description:
-      "One troy ounce 24-karat gold bullion coin, .9999 fine purity, minted by the U.S. Mint and recognized as legal tender.",
+      "One troy ounce 22-karat gold bullion coin, .9167 fine purity, minted by the U.S. Mint and recognized as legal tender.",
     brand: {
       "@type": "Brand",
       name: "U.S. Mint",
@@ -99,7 +99,7 @@ export default async function HomePage() {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('/american-buffalo-2025-proof-coins.png')",
+              backgroundImage: "url('/american-gold-eagle-coin-hero.png')",
               backgroundPosition: "75% center",
             }}
           />
@@ -120,20 +120,20 @@ export default async function HomePage() {
           <div className="max-w-2xl">
             {/* Certificate line - typographic treatment */}
             <p className="text-[13px] text-gray-400 tracking-[0.2em] uppercase mb-6">
-              24-Karat&ensp;·&ensp;.9999 Fine Gold&ensp;·&ensp;U.S. Legal Tender
+              22-Karat&ensp;·&ensp;.9167 Fine Gold&ensp;·&ensp;U.S. Legal Tender
             </p>
 
             {/* Main Headline */}
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.95] mb-8 tracking-tight">
               <span className="gold-text">American</span>
               <br />
-              <span className="gold-text">Gold Buffalo</span>
+              <span className="gold-text">Gold Eagle</span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-10 max-w-xl">
-              America&apos;s first and purest 24-karat gold bullion coin. 
-              Minted by the U.S. Mint with .9999 fine purity.
+              America&apos;s most popular gold bullion coin since 1986. 
+              Minted by the U.S. Mint with proven durability and worldwide recognition.
             </p>
 
             {/* CTAs */}
@@ -173,25 +173,25 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4">
-              <span className="gold-text">Live Gold Buffalo Pricing</span>
+              <span className="gold-text">Live Gold Eagle Pricing</span>
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              Current market data for the 1 oz American Gold Buffalo.
+              Current market data for the 1 oz American Gold Eagle.
             </p>
           </div>
           <LiveGoldSpotCard />
         </div>
       </section>
 
-      {/* Why American Gold Buffalo Section */}
+      {/* Why American Gold Eagle Section */}
       <section className="py-16 md:py-24 section-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4">
-              Why <span className="gold-text">American Gold Buffalo</span>?
+              Why <span className="gold-text">American Gold Eagle</span>?
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-              The first 24-karat gold bullion coin from the U.S. Mint, with .9999 fine purity and full government backing.
+              America&apos;s flagship gold bullion coin, backed by the U.S. government with proven durability and exceptional liquidity.
             </p>
           </div>
 
@@ -213,10 +213,10 @@ export default async function HomePage() {
                 </svg>
               </div>
               <h3 className="text-2xl font-display font-semibold mb-4 text-white">
-                .9999 Fine Purity
+                Proven Durability
               </h3>
               <p className="text-gray-400 leading-relaxed">
-                Minted from 24-karat gold at .9999 fineness. Unlike the Gold Eagle (.9167 fine), the Buffalo contains one full troy ounce of pure gold with no alloys.
+                The 22-karat (.9167 fine) gold alloy includes copper and silver for exceptional scratch resistance. Contains exactly 1 troy ounce of pure gold with added durability.
               </p>
             </div>
 
@@ -264,25 +264,25 @@ export default async function HomePage() {
                 IRA Eligible
               </h3>
               <p className="text-gray-400 leading-relaxed">
-                Qualifies for Precious Metals IRAs under IRS rules. The .9999 purity exceeds the .995 fineness minimum required for tax-advantaged retirement accounts.
+                Specifically approved for Precious Metals IRAs under IRS rules. As U.S. Mint legal tender, the Gold Eagle meets all requirements for tax-advantaged retirement accounts.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Who Buys Gold Buffalo Section */}
+      {/* Who Buys Gold Eagle Section */}
       <section className="py-16 md:py-24 relative overflow-hidden">
         <div className="absolute inset-0 gold-bar-pattern opacity-50" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-                Who Buys <span className="gold-text">Gold Buffalo Coins</span>?
+                Who Buys <span className="gold-text">Gold Eagle Coins</span>?
               </h2>
               <p className="text-lg md:text-xl text-gray-300 mb-8">
-                The American Gold Buffalo appeals to investors who prioritize 
-                purity, government backing, and strong liquidity.
+                The American Gold Eagle appeals to investors who prioritize 
+                durability, government backing, and strong liquidity.
               </p>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -291,12 +291,12 @@ export default async function HomePage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-white mb-2">
-                      Purity-Focused Investors
+                      Long-Term Investors
                     </h3>
                     <p className="text-gray-400">
-                      Investors who want maximum gold content choose the Buffalo&apos;s 
-                      .9999 fine purity over alloyed coins. Each coin contains exactly 
-                      one troy ounce of pure 24-karat gold.
+                      Investors building generational wealth choose the Gold Eagle&apos;s 
+                      durable alloy for coins that handle well over decades. Each coin 
+                      contains exactly one troy ounce of pure gold.
                     </p>
                   </div>
                 </div>
@@ -309,7 +309,7 @@ export default async function HomePage() {
                       IRA Investors
                     </h3>
                     <p className="text-gray-400">
-                      Those building Precious Metals IRAs value the Buffalo&apos;s 
+                      Those building Precious Metals IRAs value the Gold Eagle&apos;s 
                       IRS-approved status, government guarantee, and strong 
                       secondary market for eventual distributions.
                     </p>
@@ -324,8 +324,8 @@ export default async function HomePage() {
                       Collectors & Investors
                     </h3>
                     <p className="text-gray-400">
-                      The James Earle Fraser design, with its Native American profile 
-                      and American bison, appeals to collectors and bullion investors alike.
+                      The Augustus Saint-Gaudens design, featuring Lady Liberty 
+                      and an eagle family, appeals to collectors and bullion investors alike.
                     </p>
                   </div>
                 </div>
@@ -346,7 +346,7 @@ export default async function HomePage() {
               Comparing <span className="gold-text">Gold Bullion Coins</span>
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-              Understanding how the American Gold Buffalo compares to other 
+              Understanding how the American Gold Eagle compares to other 
               leading gold bullion coins helps you make informed decisions.
             </p>
           </div>
@@ -359,10 +359,10 @@ export default async function HomePage() {
                     Feature
                   </th>
                   <th className="text-center py-4 px-6 text-bullion-gold font-display">
-                    Gold Buffalo
+                    Gold Eagle
                   </th>
                   <th className="text-center py-4 px-6 text-gray-500 font-display">
-                    Gold Eagle
+                    Gold Buffalo
                   </th>
                   <th className="text-center py-4 px-6 text-gray-500 font-display">
                     Maple Leaf
@@ -372,10 +372,10 @@ export default async function HomePage() {
               <tbody className="text-gray-300">
                 <tr className="border-b border-gray-800">
                   <td className="py-4 px-6 font-medium">Gold Purity</td>
-                  <td className="py-4 px-6 text-center text-green-400">
-                    .9999 (24K)
+                  <td className="py-4 px-6 text-center text-bullion-gold">
+                    .9167 (22K)
                   </td>
-                  <td className="py-4 px-6 text-center">.9167 (22K)</td>
+                  <td className="py-4 px-6 text-center">.9999 (24K)</td>
                   <td className="py-4 px-6 text-center">.9999 (24K)</td>
                 </tr>
                 <tr className="border-b border-gray-800">
@@ -407,9 +407,9 @@ export default async function HomePage() {
                 <tr>
                   <td className="py-4 px-6 font-medium">Best For</td>
                   <td className="py-4 px-6 text-center text-bullion-gold">
-                    Purity + U.S. Legal Tender
+                    Durability + U.S. Legal Tender
                   </td>
-                  <td className="py-4 px-6 text-center">Durability</td>
+                  <td className="py-4 px-6 text-center">Maximum Purity</td>
                   <td className="py-4 px-6 text-center">Purity + Low Premium</td>
                 </tr>
               </tbody>
@@ -426,7 +426,7 @@ export default async function HomePage() {
               Iconic <span className="gold-text">Design & Heritage</span>
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-              The American Gold Buffalo features one of the most celebrated 
+              The American Gold Eagle features one of the most celebrated 
               coin designs in U.S. history.
             </p>
           </div>
@@ -434,33 +434,33 @@ export default async function HomePage() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card">
               <h3 className="text-xl font-display font-semibold text-white mb-4">
-                Obverse: Native American Portrait
+                Obverse: Lady Liberty
               </h3>
               <p className="text-gray-400 mb-4">
-                The obverse features a composite portrait of three Native American 
-                chiefs, Iron Tail (Lakota), Big Tree (Kiowa), and Two Moons (Cheyenne),
-                designed by James Earle Fraser for the original 1913 Buffalo Nickel.
+                The obverse features Augustus Saint-Gaudens&apos; iconic Walking Liberty 
+                design from the 1907 $20 gold piece, widely considered one of the 
+                most beautiful American coin designs ever created.
               </p>
               <p className="text-gray-500 text-sm">
-                <strong className="text-bullion-gold">Historical Note:</strong> Fraser 
-                wanted to create a &ldquo;truly American&rdquo; coin design, distinct from 
-                European influences.
+                <strong className="text-bullion-gold">Historical Note:</strong> President 
+                Theodore Roosevelt personally commissioned Saint-Gaudens to redesign 
+                American coinage in 1905.
               </p>
             </div>
 
             <div className="card">
               <h3 className="text-xl font-display font-semibold text-white mb-4">
-                Reverse: American Bison
+                Reverse: Eagle Family
               </h3>
               <p className="text-gray-400 mb-4">
-                The reverse depicts &ldquo;Black Diamond,&rdquo; an American bison who 
-                lived in New York&apos;s Central Park Zoo in the early 1900s. This 
-                powerful image symbolizes the American frontier and natural heritage.
+                The reverse depicts a male eagle carrying an olive branch, 
+                flying above a nest containing a female eagle and hatchlings. 
+                This design by Miley Busiek symbolizes family, security, and strength.
               </p>
               <p className="text-gray-500 text-sm">
-                <strong className="text-bullion-gold">First Minted:</strong> The Gold Buffalo 
-                debuted in 2006 as the U.S. Mint&apos;s first .9999 fine gold 
-                bullion coin.
+                <strong className="text-bullion-gold">First Minted:</strong> The Gold Eagle 
+                debuted in 1986 as the flagship of the U.S. Mint&apos;s modern 
+                bullion program.
               </p>
             </div>
           </div>

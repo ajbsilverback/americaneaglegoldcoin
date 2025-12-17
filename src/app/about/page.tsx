@@ -3,24 +3,24 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "About American Buffalo Gold Coins | Independent Educational Resource",
+  title: "About American Gold Eagle Coins | Independent Educational Resource",
   description:
-    "AmericanBuffaloGoldCoin.com is an independent educational resource about American Gold Buffalo coins. We do not sell precious metals, provide financial advice, or endorse any dealers.",
+    "AmericanEagleGoldCoin.com is an independent educational resource about American Gold Eagle coins. We do not sell precious metals, provide financial advice, or endorse any dealers.",
   alternates: {
     canonical: `${SITE_CONFIG.canonicalDomain}/about`,
   },
   openGraph: {
-    title: "About American Buffalo Gold Coins | Independent Educational Resource",
+    title: "About American Gold Eagle Coins | Independent Educational Resource",
     description:
-      "Independent educational resource about American Gold Buffalo coins. We do not sell precious metals or provide financial advice.",
+      "Independent educational resource about American Gold Eagle coins. We do not sell precious metals or provide financial advice.",
     url: `${SITE_CONFIG.domain}/about`,
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "About American Buffalo Gold Coins | Independent Educational Resource",
+    title: "About American Gold Eagle Coins | Independent Educational Resource",
     description:
-      "Independent educational resource about American Gold Buffalo coins. We do not sell precious metals or provide financial advice.",
+      "Independent educational resource about American Gold Eagle coins. We do not sell precious metals or provide financial advice.",
   },
 };
 
@@ -28,9 +28,9 @@ export default function AboutPage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    name: "About American Buffalo Gold Coins",
+    name: "About American Gold Eagle Coins",
     description:
-      "Learn about AmericanBuffaloGoldCoin.com, an independent educational resource about American Gold Buffalo coins.",
+      "Learn about AmericanEagleGoldCoin.com, an independent educational resource about American Gold Eagle coins.",
     url: `${SITE_CONFIG.domain}/about`,
     publisher: {
       "@type": "Organization",
@@ -68,13 +68,13 @@ export default function AboutPage() {
               <p className="text-gray-300 leading-relaxed mb-4">
                 {SITE_CONFIG.brandName} is an independent educational website
                 dedicated to helping investors understand{" "}
-                {SITE_CONFIG.primaryProduct}, America&apos;s first 24-karat gold 
-                bullion coin with .9999 fine purity.
+                {SITE_CONFIG.primaryProduct}, America&apos;s most popular gold 
+                bullion coin with proven durability and exceptional liquidity.
               </p>
               <p className="text-gray-300 leading-relaxed">
                 Our mission is to provide clear, unbiased information about 
-                Gold Buffalo investing, including pricing mechanics, purity 
-                advantages, IRA eligibility, and how the Buffalo compares 
+                Gold Eagle investing, including pricing mechanics, the durability 
+                advantages of 22-karat gold, IRA eligibility, and how the Eagle compares 
                 to other gold bullion coins.
               </p>
             </section>
@@ -136,8 +136,8 @@ export default function AboutPage() {
                 <li className="flex items-start gap-3">
                   <span className="text-bullion-gold">•</span>
                   <span>
-                    <strong className="text-white">American Gold Buffalo price</strong> (current
-                    ask price for 1 oz Gold Buffalo coins)
+                    <strong className="text-white">American Gold Eagle price</strong> (current
+                    ask price for 1 oz Gold Eagle coins)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -197,19 +197,19 @@ export default function AboutPage() {
               </ul>
             </section>
 
-            {/* About the Gold Buffalo */}
+            {/* About the Gold Eagle */}
             <section className="card p-6 md:p-8 bg-bullion-gold/5 border-bullion-gold/30">
               <h2 className="text-2xl font-display font-semibold text-white mb-4">
-                About the American Gold Buffalo
+                About the American Gold Eagle
               </h2>
               <p className="text-gray-300 leading-relaxed mb-4">
-                The American Gold Buffalo was first minted in 2006 as the U.S. 
-                Mint&apos;s first .9999 fine (24-karat) gold bullion coin. Key features:
+                The American Gold Eagle was first minted in 1986 as the U.S. 
+                Mint&apos;s flagship gold bullion coin. Key features:
               </p>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start gap-3">
                   <span className="text-bullion-gold">•</span>
-                  <span><strong className="text-white">.9999 fine gold</strong> (24-karat purity)</span>
+                  <span><strong className="text-white">.9167 fine gold</strong> (22-karat purity)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-bullion-gold">•</span>
@@ -225,7 +225,7 @@ export default function AboutPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-bullion-gold">•</span>
-                  <span><strong className="text-white">James Earle Fraser design</strong> from the 1913 Buffalo Nickel</span>
+                  <span><strong className="text-white">Augustus Saint-Gaudens design</strong> from the 1907 $20 gold piece</span>
                 </li>
               </ul>
             </section>

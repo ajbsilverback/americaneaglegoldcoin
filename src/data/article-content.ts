@@ -11,7 +11,7 @@ export interface ArticleContent {
 const articleContents: Record<string, ArticleContent> = {
   "premiums-explained": {
     keyTakeaways: [
-      "Gold Buffalo coins carry premiums of 3-5% over spot under normal conditions",
+      "Gold Eagle coins carry premiums of 3-5% over spot under normal conditions",
       "Premiums cover U.S. Mint production, distribution, and dealer margins",
       "Premium levels are comparable to other major government bullion coins",
       "During demand spikes, premiums can temporarily expand to 8-10% or higher",
@@ -19,15 +19,15 @@ const articleContents: Record<string, ArticleContent> = {
     ],
     sections: [
       {
-        heading: "Why Gold Buffalo Coins Have Premiums",
+        heading: "Why Gold Eagle Coins Have Premiums",
         content: [
-          "When purchasing an American Gold Buffalo, you pay a premium above the spot price of gold. This premium covers the cost of minting by the U.S. Mint, distribution through Authorized Purchasers, and dealer margins. It also reflects the value of the coin's legal tender status and government guarantee.",
-          "Gold Buffalo premiums typically range from 3-5% over spot price under normal market conditions. This is comparable to other major government bullion coins like the Gold Eagle and Canadian Maple Leaf.",
+          "When purchasing an American Gold Eagle, you pay a premium above the spot price of gold. This premium covers the cost of minting by the U.S. Mint, distribution through Authorized Purchasers, and dealer margins. It also reflects the value of the coin's legal tender status and government guarantee.",
+          "Gold Eagle premiums typically range from 3-5% over spot price under normal market conditions. This is comparable to other major government bullion coins like the Gold Buffalo and Canadian Maple Leaf.",
           "Understanding premiums is essential for evaluating the true cost of your gold investment. The premium represents the entry cost; it's part of the spread you must overcome for your investment to profit.",
         ],
-        subheading: "Components of Gold Buffalo Premiums",
+        subheading: "Components of Gold Eagle Premiums",
         subcontent: [
-          "Several cost elements combine to create the premium. U.S. Mint production costs include refining gold to .9999 purity, precision minting to exact specifications, and quality control. Distribution costs include Authorized Purchaser margins and logistics. Dealer margins cover their operations and profit.",
+          "Several cost elements combine to create the premium. U.S. Mint production costs include alloying gold to the precise .9167 fineness, precision minting to exact specifications, and quality control. Distribution costs include Authorized Purchaser margins and logistics. Dealer margins cover their operations and profit.",
           "The government guarantee and legal tender status also command value. Investors pay premiums for the authenticity assurance and worldwide recognition that come with U.S. Mint products.",
         ],
       },
@@ -40,8 +40,8 @@ const articleContents: Record<string, ArticleContent> = {
         ],
         subheading: "Comparing Premiums Across Products",
         subcontent: [
-          "Gold Buffalo premiums are comparable to Gold Eagle premiums despite the Buffalo's higher purity. Both are U.S. Mint products with similar distribution chains and market dynamics.",
-          "Canadian Maple Leafs sometimes offer slightly lower premiums (2-4%) while matching the Buffalo's .9999 purity. Premium differences among major government coins are generally modest.",
+          "Gold Eagle premiums are comparable to Gold Buffalo premiums. Both are U.S. Mint products with similar distribution chains and market dynamics.",
+          "Canadian Maple Leafs sometimes offer slightly lower premiums (2-4%) while providing .9999 purity. Premium differences among major government coins are generally modest.",
         ],
       },
       {
@@ -56,39 +56,39 @@ const articleContents: Record<string, ArticleContent> = {
   },
   "coin-comparison": {
     keyTakeaways: [
-      "Gold Buffalo offers .9999 purity (24-karat); Gold Eagle is .9167 (22-karat)",
-      "Both Buffalo and Eagle contain exactly 1 troy ounce of gold",
+      "Gold Eagle offers .9167 purity (22-karat) with superior durability; Gold Buffalo is .9999 (24-karat)",
+      "Both Eagle and Buffalo contain exactly 1 troy ounce of gold",
       "Premiums are similar across major government bullion coins (3-5%)",
       "All major coins are IRA-eligible and highly liquid",
-      "Choose based on purity preferences, not premium differences",
+      "Choose based on durability vs purity preferences, not premium differences",
     ],
     sections: [
       {
         heading: "Understanding Your Gold Coin Options",
         content: [
-          "Investors seeking gold bullion coins have several excellent options from government mints worldwide. The major choices include the American Gold Buffalo, American Gold Eagle, and Canadian Gold Maple Leaf. Each offers distinct characteristics worth understanding.",
-          "All these coins contain gold and provide exposure to gold prices, but differences in purity, design, and origin may matter for specific investment goals. Understanding these differences helps you choose the right coin for your situation.",
+          "Investors seeking gold bullion coins have several excellent options from government mints worldwide. The major choices include the American Gold Eagle, American Gold Buffalo, and Canadian Gold Maple Leaf. Each offers distinct characteristics worth understanding.",
+          "All these coins contain gold and provide exposure to gold prices, but differences in purity, durability, and design may matter for specific investment goals. Understanding these differences helps you choose the right coin for your situation.",
         ],
       },
       {
-        heading: "American Gold Buffalo: The Purity Standard",
+        heading: "American Gold Eagle: The Durable Standard",
         content: [
-          "The American Gold Buffalo, first minted in 2006, was the U.S. Mint's answer to other 24-karat bullion coins. It contains 1 troy ounce of .9999 fine (pure) gold with no alloy metals.",
-          "The Buffalo features James Earle Fraser's iconic design from the 1913 Buffalo Nickel: a Native American portrait on the obverse and an American bison on the reverse. This historic design appeals to collectors and investors alike.",
-          "Key characteristics: .9999 purity, 1 oz gold content, $50 face value, U.S. legal tender, IRA-eligible. The pure gold is softer than alloyed coins, so careful handling is recommended.",
+          "The American Gold Eagle, first minted in 1986, is America's most popular gold bullion coin. It contains 1 troy ounce of gold in a .9167 fine alloy (22-karat) with copper and silver for durability.",
+          "The Eagle features Augustus Saint-Gaudens' iconic Walking Liberty design on the obverse and an eagle family design on the reverse. This historic design appeals to collectors and investors alike.",
+          "Key characteristics: .9167 purity (22-karat), 1 oz gold content, $50 face value, U.S. legal tender, IRA-eligible. The alloy creates a harder coin that resists scratching and wear.",
         ],
       },
       {
-        heading: "American Gold Eagle: The Durable Classic",
+        heading: "American Gold Buffalo: Pure 24-Karat Gold",
         content: [
-          "The American Gold Eagle, minted since 1986, uses a .9167 fine alloy (22-karat) containing gold, copper, and silver. This alloy makes the coin more durable and scratch-resistant than pure gold coins.",
-          "Despite the alloy, the Eagle contains exactly 1 troy ounce of gold. The coin simply weighs more (1.0909 oz total) because of the alloy metals. Gold content and gold value are identical to the Buffalo.",
-          "Key characteristics: .9167 purity (22K), 1 oz gold content, $50 face value, U.S. legal tender, IRA-eligible. The alloy provides durability for handling and display.",
+          "The American Gold Buffalo, minted since 2006, uses .9999 fine gold (24-karat) with no alloy metals. It was created to compete with other pure gold coins like the Canadian Maple Leaf.",
+          "The Buffalo features James Earle Fraser's 1913 Buffalo Nickel design with a Native American portrait and American bison. It's softer than the Eagle due to pure gold's malleability.",
+          "Key characteristics: .9999 purity (24-karat), 1 oz gold content, $50 face value, U.S. legal tender, IRA-eligible. Requires careful handling as pure gold scratches more easily.",
         ],
-        subheading: "Buffalo vs Eagle: Which to Choose?",
+        subheading: "Eagle vs Buffalo: Which to Choose?",
         subcontent: [
-          "Choose the Buffalo if you prioritize maximum purity, want pure gold without alloy metals, or have an IRA custodian that requires .9999 fine gold specifically.",
-          "Choose the Eagle if you prefer a more durable coin for handling, appreciate the classic design, or simply find better pricing or availability.",
+          "Choose the Eagle if you prioritize durability, plan to handle coins frequently, or appreciate the classic Saint-Gaudens design. The 22-karat alloy better withstands everyday handling.",
+          "Choose the Buffalo if you prioritize maximum purity, prefer pure gold without alloy metals, or have an IRA custodian that requires .9999 fine gold specifically.",
         ],
       },
       {
@@ -103,7 +103,7 @@ const articleContents: Record<string, ArticleContent> = {
         heading: "Making Your Choice",
         content: [
           "For most investors, the choice between major government coins matters less than simply owning quality gold bullion. All three coins offer excellent liquidity, government backing, and strong markets.",
-          "If U.S. legal tender status matters to you, choose Buffalo or Eagle. If maximum purity at potentially lower premiums appeals, consider the Maple Leaf. If durability matters, the Eagle's alloy provides an advantage.",
+          "If U.S. legal tender status and durability matter to you, choose the Gold Eagle. If maximum purity appeals, consider the Buffalo or Maple Leaf. If durability matters most, the Eagle's alloy provides an advantage.",
           "Many investors own multiple types, taking advantage of availability and pricing opportunities across different coins.",
         ],
       },
@@ -111,26 +111,26 @@ const articleContents: Record<string, ArticleContent> = {
   },
   "storage-options": {
     keyTakeaways: [
-      "Gold Buffalo coins are practical for home safes and bank safe deposit boxes",
-      "Quality home safe storage works well for modest holdings",
+      "Gold Eagle coins are practical for home safes and bank safe deposit boxes",
+      "The 22-karat alloy provides better scratch resistance than pure gold coins",
       "Bank safe deposit boxes provide institutional security at reasonable cost",
       "IRA gold requires storage at approved depositories by approved custodians",
       "Insurance coverage should be arranged for any storage solution",
     ],
     sections: [
       {
-        heading: "Storage Options for Gold Buffalo Coins",
+        heading: "Storage Options for Gold Eagle Coins",
         content: [
-          "American Gold Buffalo coins are compact and practical to store. Each coin measures 32.7mm diameter and 2.95mm thick, fitting easily in various storage solutions. Your storage decision should reflect your holdings value, access needs, and security preferences.",
-          "Unlike large gold bars that may require professional storage, Gold Buffalo coins offer flexibility. You can realistically store multiple coins at home or in bank facilities while maintaining security and access.",
+          "American Gold Eagle coins are compact and practical to store. Each coin measures 32.7mm diameter and 2.87mm thick, fitting easily in various storage solutions. Your storage decision should reflect your holdings value, access needs, and security preferences.",
+          "Unlike large gold bars that may require professional storage, Gold Eagle coins offer flexibility. You can realistically store multiple coins at home or in bank facilities while maintaining security and access.",
         ],
       },
       {
         heading: "Home Safe Storage",
         content: [
-          "For many Gold Buffalo investors, a quality home safe provides practical and affordable storage. A good fireproof safe (ideally bolted to the floor or wall) offers reasonable security for modest holdings.",
+          "For many Gold Eagle investors, a quality home safe provides practical and affordable storage. A good fireproof safe (ideally bolted to the floor or wall) offers reasonable security for modest holdings.",
           "Safe recommendations for gold storage: look for fire ratings of at least 1 hour, consider safes weighing 500+ pounds or anchor lighter safes securely, choose combination or electronic locks from reputable manufacturers.",
-          "Store coins in protective holders or capsules to prevent scratching, as .9999 gold is soft. Keep detailed records of your holdings separately from the physical gold.",
+          "The Gold Eagle's 22-karat alloy is more durable than pure gold, but storing coins in protective holders or capsules still helps maintain condition. Keep detailed records of your holdings separately from the physical gold.",
         ],
         subheading: "Home Storage Security Considerations",
         subcontent: [
@@ -141,7 +141,7 @@ const articleContents: Record<string, ArticleContent> = {
       {
         heading: "Bank Safe Deposit Boxes",
         content: [
-          "Bank safe deposit boxes offer institutional security at reasonable cost. A small box easily accommodates multiple Gold Buffalo coins. Annual rental fees typically range from $50-$200 depending on size and location.",
+          "Bank safe deposit boxes offer institutional security at reasonable cost. A small box easily accommodates multiple Gold Eagle coins. Annual rental fees typically range from $50-$200 depending on size and location.",
           "Banks employ sophisticated security systems, vault construction, and professional monitoring that exceed what most individuals can replicate at home. Access is restricted but generally available during banking hours.",
         ],
         subheading: "Safe Deposit Box Considerations",
@@ -153,7 +153,7 @@ const articleContents: Record<string, ArticleContent> = {
       {
         heading: "IRA Storage Requirements",
         content: [
-          "If you hold Gold Buffalo coins in a Precious Metals IRA, special rules apply. IRS regulations require that IRA gold be stored by an approved custodian at an approved depository. You cannot take personal possession while coins remain in your IRA.",
+          "If you hold Gold Eagle coins in a Precious Metals IRA, special rules apply. IRS regulations require that IRA gold be stored by an approved custodian at an approved depository. You cannot take personal possession while coins remain in your IRA.",
           "Approved depositories include facilities operated by major providers like Brink's, Delaware Depository, and others meeting IRS requirements. Your custodian handles storage arrangements.",
           "Storage fees for IRA gold typically run $100-$300 annually depending on the depository and your holdings value. These fees are part of the total cost of IRA ownership.",
         ],
@@ -162,90 +162,90 @@ const articleContents: Record<string, ArticleContent> = {
   },
   "purity-advantages": {
     keyTakeaways: [
-      "Gold Buffalo's .9999 purity means no alloy metals, pure 24-karat gold",
-      "Higher purity doesn't mean higher gold content vs other 1 oz coins",
-      "Some IRA custodians specifically require .9999 fine gold",
-      "24-karat gold is preferred in some international markets",
-      "The Buffalo's purity matches the Canadian Maple Leaf",
+      "Gold Eagle's .9167 purity (22-karat) includes copper and silver for durability",
+      "The alloy creates a harder coin that resists scratching better than pure gold",
+      "Gold Eagles still contain exactly 1 troy ounce of pure gold",
+      "Gold Eagles are specifically named in IRS code for IRA eligibility",
+      "The durability advantage is meaningful for coins that will be handled",
     ],
     sections: [
       {
-        heading: "Understanding .9999 Fine Purity",
+        heading: "Understanding .9167 Fine Purity",
         content: [
-          "The American Gold Buffalo is minted from .9999 fine gold, also known as 24-karat or \"four nines\" purity. This means the coin is 99.99% pure gold with virtually no alloy metals.",
-          "This purity level was significant when the Buffalo launched in 2006. It was the first U.S. Mint coin to achieve .9999 fineness. Previously, American gold bullion coins used 22-karat alloys.",
-          "Understanding what this purity means (and doesn't mean) helps you evaluate whether the Buffalo's purity advantage matters for your investment goals.",
+          "The American Gold Eagle is minted from .9167 fine gold, also known as 22-karat or \"crown gold.\" This means the coin is 91.67% pure gold, with the remaining 8.33% consisting of copper (3%) and silver (5.33%).",
+          "This alloy composition has a long history. The same 22-karat gold standard was used for historic U.S. gold coins and British sovereigns. It represents a time-tested balance between gold content and practical durability.",
+          "Understanding what this purity means (and doesn't mean) helps you evaluate whether the Eagle's durability advantage matters for your investment goals.",
         ],
       },
       {
         heading: "Purity vs Gold Content",
         content: [
-          "A common misconception is that higher purity means more gold. In fact, all major 1 oz gold bullion coins contain exactly 1 troy ounce of gold regardless of purity.",
-          "The Gold Buffalo (.9999) and Gold Eagle (.9167) both contain 1 oz of gold. The Eagle simply weighs more (1.0909 oz total) because its alloy adds copper and silver weight. The gold content and gold value are identical.",
-          "This distinction matters: you're not getting 'more gold' with the Buffalo. You're getting pure gold without alloy metals.",
+          "A common misconception is that lower purity means less gold. In fact, all major 1 oz gold bullion coins contain exactly 1 troy ounce of gold regardless of purity.",
+          "The Gold Eagle (.9167) and Gold Buffalo (.9999) both contain 1 oz of gold. The Eagle simply weighs more (1.0909 oz total) because its alloy adds copper and silver weight. The gold content and gold value are identical.",
+          "This distinction matters: you're not getting 'less gold' with the Eagle. You're getting the same gold content with additional alloy metals that provide durability benefits.",
         ],
-        subheading: "Why Purity Matters to Some Investors",
+        subheading: "Why Durability Matters to Some Investors",
         subcontent: [
-          "Some IRA custodians specifically require .9999 fine gold. For these accounts, the Buffalo qualifies while the Eagle might not (though most custodians accept both).",
-          "In certain international markets, particularly in Asia, 24-karat gold is culturally preferred. The Buffalo's purity may be advantageous for resale in these markets.",
+          "For investors who handle coins, display them, or plan to pass them to heirs, the Eagle's durability can matter. The harder alloy resists scratches and nicks that can accumulate on softer pure gold coins.",
+          "For investors who simply store coins and never handle them, durability matters less. In this case, purity preference or premium differences might guide the choice.",
         ],
       },
       {
-        heading: "The Trade-off: Purity vs Durability",
+        heading: "The Trade-off: Durability vs Purity",
         content: [
-          "Pure gold is soft. The Gold Buffalo's .9999 purity means it's more susceptible to scratching and minor damage than alloyed coins like the Gold Eagle.",
+          "Pure gold is soft and relatively easy to scratch. The Gold Buffalo's .9999 purity means it's more susceptible to scratching and minor damage than the Gold Eagle.",
           "This isn't a significant concern for investment gold held in protective storage. However, if you plan to handle coins frequently or display them, the Eagle's more durable alloy may be preferable.",
-          "Practical advice: store Gold Buffalos in protective capsules or holders. Handle by edges only. The softness is manageable with proper care.",
+          "Practical advice: If durability matters to you, choose the Gold Eagle. If maximum purity matters more, consider the Buffalo or Maple Leaf.",
         ],
       },
       {
-        heading: "Making the Purity Decision",
+        heading: "IRA Eligibility: A Key Eagle Advantage",
         content: [
-          "For most investors, the purity difference between Buffalo and Eagle is academic. Both are excellent gold bullion coins with similar premiums and liquidity.",
-          "Choose the Buffalo if: your IRA custodian requires .9999 fine gold, you prefer pure gold conceptually, or you may sell in markets favoring 24-karat gold.",
-          "The Canadian Maple Leaf offers the same .9999 purity, sometimes at slightly lower premiums. If purity is your priority and U.S. legal tender status isn't essential, compare Buffalo and Maple Leaf pricing.",
+          "American Gold Eagles have a unique IRA advantage: they're specifically named in IRS code as approved assets for Precious Metals IRAs. This explicit statutory approval means they qualify regardless of general purity requirements.",
+          "The Gold Buffalo qualifies because it exceeds the .995 minimum purity requirement. But the Gold Eagle's explicit IRS code mention provides an extra layer of certainty.",
+          "For IRA investors, both Eagles and Buffalos work well. The Eagle's explicit approval and durability advantages make it a popular IRA choice.",
         ],
       },
     ],
   },
   "liquidity-considerations": {
     keyTakeaways: [
-      "Gold Buffalo coins are highly liquid with excellent dealer demand",
-      "U.S. Mint products with legal tender status ensure worldwide recognition",
+      "Gold Eagle coins are highly liquid with excellent dealer demand",
+      "As America's most popular bullion coin, Eagles have unmatched recognition",
       "Sales typically complete within 1-2 business days through established dealers",
-      "Liquidity is comparable to Gold Eagle and other major bullion coins",
+      "Liquidity may exceed Gold Buffalos due to longer history and name recognition",
       "Documentation and condition support the best resale prices",
     ],
     sections: [
       {
-        heading: "Understanding Gold Buffalo Liquidity",
+        heading: "Understanding Gold Eagle Liquidity",
         content: [
           "Liquidity describes how quickly and easily an asset can be converted to cash without significantly affecting its price. For gold investors, liquidity is important. An illiquid asset fails as a financial instrument if you cannot access its value when needed.",
-          "American Gold Buffalo coins are highly liquid. As U.S. Mint products with legal tender status, they're instantly recognized by dealers worldwide. Most established precious metals dealers maintain ready markets for Gold Buffalos.",
-          "The strong liquidity reflects dealer confidence: they know they can resell Gold Buffalos easily, so they're willing to buy them readily.",
+          "American Gold Eagle coins are highly liquid. As America's most popular gold bullion coin with U.S. Mint legal tender status since 1986, they're instantly recognized by dealers worldwide. Most established precious metals dealers maintain ready markets for Gold Eagles.",
+          "The strong liquidity reflects dealer confidence: they know they can resell Gold Eagles easily, so they're willing to buy them readily.",
         ],
       },
       {
-        heading: "Factors Supporting Gold Buffalo Liquidity",
+        heading: "Factors Supporting Gold Eagle Liquidity",
         content: [
           "Government mint origin provides authenticity assurance. Dealers don't need extensive verification for U.S. Mint products because the source itself is the guarantee.",
           "Legal tender status provides additional recognition and protection. The $50 face value establishes the coin's official standing.",
-          "Established market since 2006 has built strong dealer familiarity. While newer than the Gold Eagle (1986), the Buffalo has achieved comparable market acceptance.",
+          "Established market since 1986 has built decades of dealer familiarity. The Gold Eagle has been America's flagship gold coin for nearly 40 years.",
         ],
         subheading: "Comparing Liquidity Across Coins",
         subcontent: [
-          "Gold Buffalo liquidity is comparable to Gold Eagle and Canadian Maple Leaf. All are major government products with strong dealer demand.",
-          "Among these coins, liquidity differences are negligible for practical purposes. You won't have difficulty selling any of them through established dealers.",
+          "Gold Eagle liquidity is excellent and may exceed Gold Buffalo due to the Eagle's longer history (1986 vs 2006) and higher name recognition as America's flagship gold coin.",
+          "Among all coins, liquidity differences are negligible for practical purposes. You won't have difficulty selling any major government bullion coin through established dealers.",
         ],
       },
       {
         heading: "Maximizing Your Resale Experience",
         content: [
-          "While Gold Buffalos are highly liquid, certain practices optimize your resale experience. Keep documentation: purchase receipts, any certificates, and records of your holdings.",
-          "Maintain coin condition by using protective holders. While bullion is valued for gold content rather than numismatic condition, well-preserved coins present better and may command slightly better prices.",
+          "While Gold Eagles are highly liquid, certain practices optimize your resale experience. Keep documentation: purchase receipts, any certificates, and records of your holdings.",
+          "The Eagle's durable alloy helps maintain coin condition, but using protective holders still makes sense. Well-preserved coins present better and may command slightly better prices.",
           "Build dealer relationships before you need to sell. Dealers who know you and your holdings can move more quickly and may offer better pricing.",
         ],
-        subheading: "Where to Sell Gold Buffalo Coins",
+        subheading: "Where to Sell Gold Eagle Coins",
         subcontent: [
           "Options include: the dealer you purchased from (often the simplest path), other online bullion dealers, local coin shops, and precious metals exchanges.",
           "Get quotes from multiple sources before selling. While pricing should be competitive, differences exist, and shopping ensures you receive fair value.",
@@ -258,7 +258,7 @@ const articleContents: Record<string, ArticleContent> = {
       "Gold prices respond to interest rates, dollar strength, and inflation expectations",
       "Geopolitical uncertainty and economic crises typically drive gold higher",
       "Central bank purchasing has become a significant demand driver",
-      "Gold Buffalo prices move with spot gold; coin type doesn't affect exposure",
+      "Gold Eagle prices move with spot gold; coin type doesn't affect exposure",
       "Understanding dynamics helps with timing purchases and setting expectations",
     ],
     sections: [
@@ -267,7 +267,7 @@ const articleContents: Record<string, ArticleContent> = {
         content: [
           "Gold prices reflect the constantly shifting balance between global supply and demand, influenced by economic conditions, geopolitical events, currency movements, and investor sentiment. Understanding these dynamics helps you contextualize price movements.",
           "Unlike industrial commodities driven primarily by production and consumption, gold's price incorporates significant monetary and psychological components. Gold functions as a commodity, currency alternative, and store of value simultaneously.",
-          "For Gold Buffalo investors, these dynamics affect holdings identically to any other gold format. Your coin's value changes with spot prices just as bars or other coins do.",
+          "For Gold Eagle investors, these dynamics affect holdings identically to any other gold format. Your coin's value changes with spot prices just as bars or other coins do.",
         ],
       },
       {
@@ -297,7 +297,7 @@ const articleContents: Record<string, ArticleContent> = {
   },
   "spreads-explained": {
     keyTakeaways: [
-      "Bid-ask spreads on Gold Buffalo coins are typically 2-4%",
+      "Bid-ask spreads on Gold Eagle coins are typically 2-4%",
       "Spreads directly affect your break-even point and total ownership cost",
       "Spreads are comparable across major government bullion coins",
       "Market volatility can widen spreads temporarily",
@@ -308,20 +308,20 @@ const articleContents: Record<string, ArticleContent> = {
         heading: "What Is the Bid-Ask Spread?",
         content: [
           "When trading gold coins, you encounter two prices: the ask (what dealers charge when you buy) and the bid (what they pay when they buy from you). The difference, known as the bid-ask spread, represents the transaction cost of entering and exiting your position.",
-          "Understanding spreads is essential for evaluating the true cost of gold ownership. A Gold Buffalo purchased at 4% premium and sold at 2% discount to spot requires gold to appreciate 6% just to break even.",
-          "Gold Buffalo coins typically have spreads of 2-4%, competitive with other major government bullion coins.",
+          "Understanding spreads is essential for evaluating the true cost of gold ownership. A Gold Eagle purchased at 4% premium and sold at 2% discount to spot requires gold to appreciate 6% just to break even.",
+          "Gold Eagle coins typically have spreads of 2-4%, competitive with other major government bullion coins.",
         ],
       },
       {
-        heading: "Factors Affecting Gold Buffalo Spreads",
+        heading: "Factors Affecting Gold Eagle Spreads",
         content: [
           "Market conditions dramatically impact spreads. During volatility or supply stress, spreads widen as dealers protect against rapid price movements. Calm, stable markets produce the tightest spreads.",
           "Dealer business models affect spreads. High-volume dealers may offer tighter spreads than smaller operations. Online dealers often compete aggressively on spreads.",
-          "Coin condition can matter for Gold Buffalos at the margin. Well-preserved coins in protective holders present better than damaged specimens.",
+          "The Gold Eagle's durable alloy helps coins maintain good condition, which can support tighter spreads on resale.",
         ],
         subheading: "Spread Comparison Across Coins",
         subcontent: [
-          "Spreads are similar among major government bullion coins (Buffalo, Eagle, Maple Leaf). All benefit from strong recognition and dealer markets.",
+          "Spreads are similar among major government bullion coins (Eagle, Buffalo, Maple Leaf). All benefit from strong recognition and dealer markets.",
           "Lesser-known coins or private mint products may face wider spreads due to lower recognition and smaller markets.",
         ],
       },
@@ -329,7 +329,7 @@ const articleContents: Record<string, ArticleContent> = {
         heading: "Calculating Your Break-Even",
         content: [
           "Before purchasing, calculate the price appreciation required to break even after accounting for the full spread. If you pay 4% over spot and expect to receive 2% below spot when selling, you need 6% appreciation to break even.",
-          "For a Gold Buffalo at {{CAPITAL_REQUIREMENT}}, that 6% break-even represents roughly $150-$180 in gold price movement. This is achievable over reasonable holding periods given gold's typical volatility.",
+          "For a Gold Eagle at {{CAPITAL_REQUIREMENT}}, that 6% break-even represents roughly $150-$180 in gold price movement. This is achievable over reasonable holding periods given gold's typical volatility.",
           "This calculation helps set realistic expectations about your investment timeline and required price appreciation.",
         ],
         subheading: "Strategies to Minimize Spread Impact",
@@ -342,32 +342,32 @@ const articleContents: Record<string, ArticleContent> = {
   },
   "authentication-guide": {
     keyTakeaways: [
-      "Purchase Gold Buffalo coins from reputable dealers for best authenticity assurance",
+      "Purchase Gold Eagle coins from reputable dealers for best authenticity assurance",
       "U.S. Mint products have consistent specifications enabling verification",
       "Professional authentication available for secondary market purchases",
-      "Key specifications: 32.7mm diameter, 2.95mm thick, 1.0001 oz weight",
+      "Key specifications: 32.7mm diameter, 2.87mm thick, 1.0909 oz total weight",
       "Maintain documentation for easier future transactions",
     ],
     sections: [
       {
         heading: "Why Authentication Matters",
         content: [
-          "With individual Gold Buffalo coins valued at {{CAPITAL_REQUIREMENT}}, authentication is important. While counterfeiting of major government coins is relatively rare due to sophisticated minting, verification provides peace of mind.",
+          "With individual Gold Eagle coins valued at {{CAPITAL_REQUIREMENT}}, authentication is important. While counterfeiting of major government coins is relatively rare due to sophisticated minting, verification provides peace of mind.",
           "The good news: U.S. Mint products are difficult to counterfeit convincingly. The Mint's precision manufacturing creates consistent specifications that enable verification.",
           "For legitimate purchases from reputable dealers, authentication concerns are minimal. Risk increases when buying from unknown sources, secondary markets, or sellers with incomplete documentation.",
         ],
       },
       {
-        heading: "Gold Buffalo Specifications",
+        heading: "Gold Eagle Specifications",
         content: [
-          "Know the official specifications for verification: Diameter is 32.7mm. Thickness is 2.95mm. Weight is 1.0001 troy ounces (31.108 grams). Purity is .9999 fine gold.",
-          "The design features: Obverse shows a Native American portrait (James Earle Fraser design). Reverse shows an American bison. Edge is reeded. Date and 'UNITED STATES OF AMERICA' appear on the coin.",
+          "Know the official specifications for verification: Diameter is 32.7mm. Thickness is 2.87mm. Total weight is 1.0909 troy ounces (33.931 grams). Purity is .9167 fine gold (22-karat).",
+          "The design features: Obverse shows Walking Liberty (Augustus Saint-Gaudens design). Reverse shows an eagle family. Edge is reeded. Date and 'UNITED STATES OF AMERICA' appear on the coin.",
           "Variations in these specifications may indicate counterfeits. Legitimate coins show consistent quality and precision from the U.S. Mint.",
         ],
         subheading: "Visual Verification",
         subcontent: [
-          "Examine design details carefully. The Native American portrait and bison should show fine detail consistent with Mint quality. Look for sharp strikes and consistent coloring.",
-          ".9999 gold has a distinct rich yellow color. Compare to known genuine specimens if possible. Weight verification using a precision scale provides objective confirmation.",
+          "Examine design details carefully. Walking Liberty and the eagle family should show fine detail consistent with Mint quality. Look for sharp strikes and consistent coloring.",
+          "22-karat gold has a distinct rich yellow color, slightly different from pure gold due to the copper content. Compare to known genuine specimens if possible. Weight verification using a precision scale provides objective confirmation.",
         ],
       },
       {
@@ -375,7 +375,7 @@ const articleContents: Record<string, ArticleContent> = {
         content: [
           "For secondary market purchases or coins with incomplete provenance, professional authentication provides assurance. Services like NGC (Numismatic Guaranty Corporation) and PCGS (Professional Coin Grading Service) authenticate and encapsulate coins.",
           "XRF (X-ray fluorescence) testing verifies gold content non-destructively. Many dealers offer this service, or independent testing is available.",
-          "The cost for professional services is modest compared to a Gold Buffalo's value. For significant purchases from non-dealer sources, authentication is a worthwhile investment.",
+          "The cost for professional services is modest compared to a Gold Eagle's value. For significant purchases from non-dealer sources, authentication is a worthwhile investment.",
         ],
         subheading: "Red Flags to Watch For",
         subcontent: [
@@ -387,8 +387,8 @@ const articleContents: Record<string, ArticleContent> = {
   },
   "ira-eligibility": {
     keyTakeaways: [
-      "Gold Buffalo coins meet all IRS requirements for Precious Metals IRAs",
-      ".9999 purity exceeds the IRS minimum of .995 for gold",
+      "Gold Eagle coins are specifically named in IRS code for Precious Metals IRAs",
+      "This explicit approval provides certainty beyond general purity requirements",
       "U.S. Mint legal tender status satisfies government-minting requirements",
       "IRA gold must be held by approved custodians at approved depositories",
       "You cannot take personal possession while coins remain in your IRA",
@@ -398,20 +398,20 @@ const articleContents: Record<string, ArticleContent> = {
         heading: "IRS Requirements for IRA Gold",
         content: [
           "The IRS permits certain precious metals in Individual Retirement Accounts (IRAs), subject to specific requirements. Gold must meet minimum purity standards, and certain coins and bars qualify while others don't.",
-          "For gold, the IRS requires minimum .995 fineness (99.5% purity). Gold must be produced by a national government mint or a refiner/assayer/manufacturer accredited by certain organizations.",
-          "The American Gold Buffalo exceeds these requirements: its .9999 purity surpasses the .995 minimum, and its U.S. Mint origin provides government-mint status.",
+          "For gold, the IRS generally requires minimum .995 fineness (99.5% purity). However, American Gold Eagles are explicitly named in the tax code as approved IRA assets, regardless of this general purity requirement.",
+          "The American Gold Eagle's specific statutory approval provides an extra level of certainty for IRA investors.",
         ],
       },
       {
-        heading: "Why Gold Buffalos Are Ideal for IRAs",
+        heading: "Why Gold Eagles Are Ideal for IRAs",
         content: [
-          "The Gold Buffalo's combination of high purity and government origin makes it particularly suitable for IRAs. Some custodians that are strict about purity requirements may prefer .9999 fine gold specifically.",
-          "As U.S. legal tender, Gold Buffalos have strong recognition and liquidity, important factors when you eventually take distributions from your IRA.",
-          "The Buffalo's established market since 2006 and ongoing U.S. Mint production ensure consistent availability for IRA purchases.",
+          "The Gold Eagle's explicit IRS code mention makes it particularly suitable for IRAs. There's no ambiguity about its eligibility status. IRA custodians readily accept Gold Eagles without purity-related questions.",
+          "As U.S. legal tender, Gold Eagles have strong recognition and liquidity, important factors when you eventually take distributions from your IRA.",
+          "The Gold Eagle's established market since 1986 and ongoing U.S. Mint production ensure consistent availability for IRA purchases.",
         ],
-        subheading: "Comparing Buffalo and Eagle for IRAs",
+        subheading: "Comparing Eagle and Buffalo for IRAs",
         subcontent: [
-          "Both Gold Buffalo and Gold Eagle are IRA-eligible. The Eagle's .9167 purity exceeds the .995 minimum because it's specifically exempted as American Eagle bullion in IRS code.",
+          "Both Gold Eagle and Gold Buffalo are IRA-eligible. The Eagle is explicitly named in IRS code; the Buffalo qualifies because its .9999 purity exceeds the .995 minimum requirement.",
           "Choose between them based on personal preference, availability, and pricing rather than IRA eligibility. Both qualify equally.",
         ],
       },
@@ -433,7 +433,7 @@ const articleContents: Record<string, ArticleContent> = {
   "portfolio-allocation": {
     keyTakeaways: [
       "Gold typically represents 5-15% of diversified portfolios",
-      "Gold Buffalos provide direct ownership with no counterparty risk",
+      "Gold Eagles provide direct ownership with no counterparty risk",
       "Consider both tax-advantaged (IRA) and personal ownership",
       "Dollar-cost averaging reduces timing risk for building positions",
       "Physical gold complements but doesn't replace other gold exposure",
@@ -442,29 +442,29 @@ const articleContents: Record<string, ArticleContent> = {
       {
         heading: "Gold's Role in Portfolio Diversification",
         content: [
-          "Gold serves multiple functions in investment portfolios: diversification from traditional assets, inflation hedge, safe haven during crises, and long-term store of value. These benefits apply to Gold Buffalo coins as they do to any gold investment.",
+          "Gold serves multiple functions in investment portfolios: diversification from traditional assets, inflation hedge, safe haven during crises, and long-term store of value. These benefits apply to Gold Eagle coins as they do to any gold investment.",
           "Conventional wisdom suggests 5-15% of a portfolio in precious metals. Conservative investors might target 5%, while those more concerned about monetary system risks might go higher.",
-          "Gold Buffalos are appropriate for any allocation level. A single coin provides meaningful gold exposure; larger holdings can be built over time.",
+          "Gold Eagles are appropriate for any allocation level. A single coin provides meaningful gold exposure; larger holdings can be built over time.",
         ],
       },
       {
         heading: "Physical Gold vs Other Gold Exposure",
         content: [
-          "Gold Buffalo coins represent direct physical ownership. You hold the actual metal with no counterparty risk and no reliance on financial institutions, ETF managers, or other intermediaries.",
+          "Gold Eagle coins represent direct physical ownership. You hold the actual metal with no counterparty risk and no reliance on financial institutions, ETF managers, or other intermediaries.",
           "Gold ETFs offer liquidity and convenience: easy to trade, no storage concerns. But you don't own gold directly; you own shares in a trust that holds gold on your behalf.",
           "Mining stocks provide leveraged gold exposure but add company-specific risks. They're not gold ownership but rather equity ownership in gold-producing businesses.",
         ],
         subheading: "Complementary Approaches",
         subcontent: [
-          "Many investors combine approaches. Physical Gold Buffalos for core long-term holdings that you truly own. Gold ETFs for tactical trading or easy portfolio rebalancing.",
+          "Many investors combine approaches. Physical Gold Eagles for core long-term holdings that you truly own. Gold ETFs for tactical trading or easy portfolio rebalancing.",
           "The right mix depends on your priorities: direct ownership vs convenience, long-term holdings vs trading, and the importance of having gold outside the financial system.",
         ],
       },
       {
-        heading: "Building Your Gold Buffalo Position",
+        heading: "Building Your Gold Eagle Position",
         content: [
           "Two main approaches exist: lump-sum purchasing and dollar-cost averaging. Lump-sum means buying your target allocation at once. Dollar-cost averaging means buying over time to average out price fluctuations.",
-          "Dollar-cost averaging reduces timing risk but incurs multiple transaction costs. For Gold Buffalo purchases, the premium per coin doesn't change with quantity, so transaction frequency affects total costs.",
+          "Dollar-cost averaging reduces timing risk but incurs multiple transaction costs. For Gold Eagle purchases, the premium per coin doesn't change with quantity, so transaction frequency affects total costs.",
           "Consider your timeline and market view. If you believe gold is undervalued now, lump-sum makes sense. If you're uncertain or building position gradually, dollar-cost averaging provides discipline.",
         ],
         subheading: "Tax Considerations in Allocation",
@@ -485,10 +485,10 @@ const articleContents: Record<string, ArticleContent> = {
     ],
     sections: [
       {
-        heading: "Preparing for Your First Gold Buffalo Purchase",
+        heading: "Preparing for Your First Gold Eagle Purchase",
         content: [
-          "Purchasing an American Gold Buffalo represents a meaningful investment at approximately {{CAPITAL_REQUIREMENT}}. Before initiating a transaction, take time to understand the process. Research dealers, understand pricing, arrange storage, and ensure you're ready to complete the transaction smoothly.",
-          "The preparation phase matters. Rushing into a purchase without adequate preparation can lead to unnecessary costs or complications. This guide walks through practical considerations for first-time Gold Buffalo buyers.",
+          "Purchasing an American Gold Eagle represents a meaningful investment at approximately {{CAPITAL_REQUIREMENT}}. Before initiating a transaction, take time to understand the process. Research dealers, understand pricing, arrange storage, and ensure you're ready to complete the transaction smoothly.",
+          "The preparation phase matters. Rushing into a purchase without adequate preparation can lead to unnecessary costs or complications. This guide walks through practical considerations for first-time Gold Eagle buyers.",
         ],
       },
       {
@@ -507,7 +507,7 @@ const articleContents: Record<string, ArticleContent> = {
       {
         heading: "Understanding Dealer Pricing",
         content: [
-          "Gold Buffalo pricing consists of the gold spot value plus the dealer's premium. Premiums typically range from 3-5% under normal market conditions.",
+          "Gold Eagle pricing consists of the gold spot value plus the dealer's premium. Premiums typically range from 3-5% under normal market conditions.",
           "Premium variations between dealers can be meaningful. Some dealers operate on thin margins with high volume, while others charge higher premiums but offer additional services.",
           "Avoid dealers with premiums dramatically below competitors, as extremely low premiums may indicate problems. Legitimate dealers operate within a relatively narrow premium band.",
         ],
@@ -543,13 +543,13 @@ const articleContents: Record<string, ArticleContent> = {
         heading: "Important Disclaimer",
         content: [
           "This article provides general educational information about tax considerations related to physical gold coin ownership. It does not constitute tax advice, legal advice, or financial advice. Tax laws are complex, change frequently, and vary by jurisdiction.",
-          "Before making any decisions about purchasing, holding, or selling Gold Buffalo coins, consult with a qualified tax professional who can provide guidance specific to your situation.",
+          "Before making any decisions about purchasing, holding, or selling Gold Eagle coins, consult with a qualified tax professional who can provide guidance specific to your situation.",
         ],
       },
       {
         heading: "Federal Tax Classification of Physical Gold",
         content: [
-          "For federal tax purposes, physical gold is generally classified as a collectible rather than as an ordinary investment asset. This classification affects how gains are taxed when you eventually sell your Gold Buffalo coins.",
+          "For federal tax purposes, physical gold is generally classified as a collectible rather than as an ordinary investment asset. This classification affects how gains are taxed when you eventually sell your Gold Eagle coins.",
           "Understanding this classification helps frame your expectations, though specific rates and rules change with tax legislation. The collectible classification applies regardless of coin type.",
           "Your tax advisor can explain current rates and how they apply to your projected holding period and income level.",
         ],
@@ -557,14 +557,14 @@ const articleContents: Record<string, ArticleContent> = {
       {
         heading: "Capital Gains Fundamentals",
         content: [
-          "When you sell a Gold Buffalo coin for more than your cost basis (purchase price plus certain associated costs), you realize a capital gain. This gain is generally subject to tax.",
+          "When you sell a Gold Eagle coin for more than your cost basis (purchase price plus certain associated costs), you realize a capital gain. This gain is generally subject to tax.",
           "Your cost basis includes the purchase price plus any directly related costs. Maintaining accurate records ensures you calculate gains correctly when selling.",
           "Capital losses can occur if you sell for less than your basis. The treatment of capital losses involves specific rules that your tax professional can explain.",
         ],
         subheading: "Holding Period Considerations",
         subcontent: [
           "The length of time you hold gold before selling may affect tax treatment. Assets held for longer periods may qualify for different treatment than those held briefly.",
-          "For Gold Buffalo investors typically planning long-term holdings, understanding the implications of your intended holding period helps with planning.",
+          "For Gold Eagle investors typically planning long-term holdings, understanding the implications of your intended holding period helps with planning.",
         ],
       },
       {
@@ -572,13 +572,13 @@ const articleContents: Record<string, ArticleContent> = {
         content: [
           "State tax treatment of gold purchases and sales varies dramatically across jurisdictions. Many states exempt precious metals from sales tax, while others tax bullion purchases at standard rates.",
           "Beyond sales tax, states may have their own capital gains tax treatment. Your residence at the time of sale determines which state rules apply.",
-          "If you're considering a Gold Buffalo purchase, understanding your state's treatment can affect your total cost. Your tax advisor can explain your state's current rules.",
+          "If you're considering a Gold Eagle purchase, understanding your state's treatment can affect your total cost. Your tax advisor can explain your state's current rules.",
         ],
       },
       {
         heading: "IRA Ownership Tax Treatment",
         content: [
-          "Holding Gold Buffalo coins in a Precious Metals IRA follows different tax rules than personal ownership. Traditional IRA contributions may be tax-deductible, with taxes deferred until distribution.",
+          "Holding Gold Eagle coins in a Precious Metals IRA follows different tax rules than personal ownership. Traditional IRA contributions may be tax-deductible, with taxes deferred until distribution.",
           "Roth IRA contributions are made with after-tax dollars, but growth and qualified distributions are tax-free. The choice between Traditional and Roth affects your overall tax planning.",
           "IRA ownership involves trade-offs beyond taxes: custody requirements prevent personal possession, and custodian fees add to ownership costs. Evaluate the full picture.",
         ],

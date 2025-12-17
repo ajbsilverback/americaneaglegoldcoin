@@ -3,75 +3,76 @@ import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "American Gold Buffalo Coin Specifications | Technical Details & Investor Facts",
+  title: "American Gold Eagle Coin Specifications | Technical Details & Investor Facts",
   description:
-    "Complete technical specifications for the 1 oz American Gold Buffalo coin: .9999 fine purity, weight, dimensions, legal tender status, IRA eligibility, and premium factors.",
+    "Complete technical specifications for the 1 oz American Gold Eagle coin: .9167 fine purity (22-karat), weight, dimensions, legal tender status, IRA eligibility, and premium factors.",
   alternates: {
     canonical: `${SITE_CONFIG.canonicalDomain}/coin-specs`,
   },
   openGraph: {
-    title: "American Gold Buffalo Coin Specifications | Technical Details",
+    title: "American Gold Eagle Coin Specifications | Technical Details",
     description:
-      "Complete technical specifications for the 1 oz American Gold Buffalo: .9999 purity, 1 troy oz weight, U.S. Mint legal tender status, and IRA eligibility.",
+      "Complete technical specifications for the 1 oz American Gold Eagle: .9167 purity (22-karat), 1 troy oz gold content, U.S. Mint legal tender status, and IRA eligibility.",
     url: `${SITE_CONFIG.domain}/coin-specs`,
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "American Gold Buffalo Coin Specifications",
+    title: "American Gold Eagle Coin Specifications",
     description:
-      "Complete technical specifications for the 1 oz American Gold Buffalo: .9999 purity, 1 troy oz weight, and IRA eligibility.",
+      "Complete technical specifications for the 1 oz American Gold Eagle: .9167 purity, 1 troy oz gold content, and IRA eligibility.",
   },
 };
 
 const specsData = [
-  { label: "Purity", value: ".9999 fine gold (24-karat)", highlight: true },
-  { label: "Gold Content", value: "1.0000 troy ounce (31.1035 grams)" },
-  { label: "Gross Weight", value: "1.0001 troy ounce (31.1080 grams)" },
-  { label: "Diameter", value: "32.70 mm (1.287 inches)" },
-  { label: "Thickness", value: "2.95 mm (0.116 inches)" },
+  { label: "Gold Purity", value: ".9167 fine (22-karat)", highlight: true },
+  { label: "Alloy Composition", value: "91.67% gold, 3% copper, 5.33% silver" },
+  { label: "Fine Gold Content", value: "1.0000 troy ounce (31.1035 g)", highlight: true },
+  { label: "Gross Weight", value: "1.0909 troy ounces (33.931 g)" },
+  { label: "Diameter", value: "32.70 mm (1.287 in)" },
+  { label: "Thickness", value: "2.87 mm (0.113 in)" },
   { label: "Face Value", value: "$50 USD (legal tender)" },
   { label: "Mint", value: "United States Mint" },
-  { label: "First Minted", value: "2006" },
+  { label: "First Minted", value: "1986" },
   { label: "Edge", value: "Reeded" },
   { label: "IRA Eligible", value: "Yes", highlight: true },
 ];
 
 const faqData = [
   {
-    question: "What is the purity of the American Gold Buffalo?",
+    question: "What is the purity of the American Gold Eagle?",
     answer:
-      "The American Gold Buffalo is .9999 fine gold, meaning it contains 99.99% pure gold (24-karat). This makes it the purest gold coin produced by the U.S. Mint and one of the purest gold bullion coins available worldwide.",
+      "The American Gold Eagle is .9167 fine gold (22-karat). The alloy consists of 91.67% gold, 3% copper, and 5.33% silver. This composition creates a harder coin that resists scratching and wear better than pure gold.",
   },
   {
-    question: "How much gold is in a 1 oz Gold Buffalo?",
+    question: "How much gold is in a 1 oz Gold Eagle?",
     answer:
-      "Each 1 oz American Gold Buffalo contains exactly 1.0000 troy ounce (31.1035 grams) of pure gold. Because of the .9999 purity, virtually all of the coin's weight is gold content.",
+      "The 1 oz American Gold Eagle contains exactly 1.0000 troy ounce (31.1035 grams) of fine gold. The copper and silver alloy adds weight, bringing the total coin weight to 1.0909 troy ounces (33.931 grams). The gold content is the same as a 1 oz .9999 fine coin.",
   },
   {
-    question: "Is the Gold Buffalo legal tender?",
+    question: "Is the Gold Eagle legal tender?",
     answer:
-      "Yes, the American Gold Buffalo carries a $50 face value and is official U.S. legal tender, backed by the United States government. However, its gold content is worth significantly more than the face value.",
+      "Yes. The American Gold Eagle carries a $50 face value and is official U.S. legal tender, backed by the United States government. The intrinsic gold value exceeds the face value.",
   },
   {
-    question: "Can I hold Gold Buffalo coins in an IRA?",
+    question: "Can I hold Gold Eagle coins in an IRA?",
     answer:
-      "Yes, American Gold Buffalo coins meet IRS requirements for inclusion in a Precious Metals IRA (also called a Gold IRA). The .9999 purity exceeds the IRS minimum fineness requirement of .995 for gold. You'll need a qualified custodian and approved depository to hold IRA-owned coins.",
+      "Yes. American Gold Eagle coins are specifically named in IRS code as approved assets for Precious Metals IRAs. You need a qualified custodian and an approved depository to hold IRA-owned coins.",
   },
   {
-    question: "Why does the Gold Buffalo have a premium over spot price?",
+    question: "Why does the Gold Eagle have a premium over spot price?",
     answer:
-      "Premiums reflect minting costs, dealer margins, and supply/demand dynamics. The Gold Buffalo's premium accounts for U.S. Mint production costs, distribution, the coin's legal tender status, and its recognition as a trusted government-minted product. Premiums vary based on market conditions.",
+      "Premiums cover U.S. Mint production costs, distribution through Authorized Purchasers, and dealer margins. They also reflect the coin's legal tender status and global recognition. Premiums fluctuate with market conditions and demand.",
   },
   {
-    question: "How does the Gold Buffalo compare to the Gold Eagle in purity?",
+    question: "How does the Gold Eagle compare to the Gold Buffalo?",
     answer:
-      "The Gold Buffalo is .9999 fine (24-karat pure gold), while the Gold Eagle is .9167 fine (22-karat). Both coins contain 1 troy ounce of gold, but the Eagle is alloyed with copper and silver for durability, making it slightly heavier overall. Investors choose based on preference for purity versus durability.",
+      "The Gold Eagle is .9167 fine (22-karat) while the Gold Buffalo is .9999 fine (24-karat). Both contain 1 troy ounce of gold. The Eagle weighs more due to its alloy and is more scratch-resistant. The Buffalo is softer pure gold. Both are U.S. Mint products and IRA-eligible.",
   },
   {
-    question: "What affects Gold Buffalo premiums?",
+    question: "What affects Gold Eagle premiums?",
     answer:
-      "Key premium drivers include: mint production capacity, dealer inventory levels, overall demand for physical gold, the coin's recognition and liquidity, and broader precious metals market conditions. During high demand periods, premiums typically increase.",
+      "Premium drivers include mint production capacity, dealer inventory, demand for physical gold, and broader market conditions. During periods of high demand or supply constraints, premiums typically increase above normal levels.",
   },
 ];
 
@@ -79,9 +80,9 @@ export default function CoinSpecsPage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "American Gold Buffalo Coin Specifications",
+    name: "American Gold Eagle Coin Specifications",
     description:
-      "Complete technical specifications and investor facts for the 1 oz American Gold Buffalo coin.",
+      "Complete technical specifications and investor facts for the 1 oz American Gold Eagle coin.",
     url: `${SITE_CONFIG.domain}/coin-specs`,
     publisher: {
       "@type": "Organization",
@@ -119,10 +120,10 @@ export default function CoinSpecsPage() {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">
-              <span className="gold-text">Gold Buffalo</span> Specifications
+              <span className="gold-text">Gold Eagle</span> Specifications
             </h1>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Technical details and investor-facing facts for the 1 oz American Gold Buffalo, America&apos;s purest gold bullion coin.
+              Technical details and investor-facing facts for the 1 oz American Gold Eagle, America&apos;s most popular gold bullion coin.
             </p>
           </div>
 
@@ -149,36 +150,36 @@ export default function CoinSpecsPage() {
             </div>
           </section>
 
-          {/* Purity Advantage */}
+          {/* 22-Karat Composition */}
           <section className="card p-6 md:p-8 mb-10 bg-bullion-gold/5 border-bullion-gold/30">
             <h2 className="text-2xl font-display font-semibold text-white mb-4">
-              The .9999 Purity Advantage
+              Understanding the 22-Karat Alloy
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              At .9999 fineness (24-karat), the Gold Buffalo is the purest gold coin produced by the U.S. Mint.
+              The Gold Eagle is minted from a .9167 fine alloy (22-karat). Despite the alloy, each 1 oz coin contains exactly 1 troy ounce of fine gold. The copper and silver add durability without reducing gold content.
             </p>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start gap-3">
                 <span className="text-bullion-gold mt-1">•</span>
-                <span><strong className="text-white">Maximum gold content</strong>: Virtually 100% of the coin&apos;s weight is pure gold</span>
+                <span><strong className="text-white">Full gold content</strong>: 1.0000 troy ounce of fine gold per 1 oz coin</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-bullion-gold mt-1">•</span>
-                <span><strong className="text-white">IRS compliance</strong>: Exceeds the .995 minimum fineness for Precious Metals IRAs</span>
+                <span><strong className="text-white">Alloy metals</strong>: 3% copper and 5.33% silver add scratch resistance</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-bullion-gold mt-1">•</span>
-                <span><strong className="text-white">Global recognition</strong>: Comparable purity to the Canadian Maple Leaf and other international 24-karat coins</span>
+                <span><strong className="text-white">Gross weight</strong>: 1.0909 troy ounces total (alloy adds weight, not gold)</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-bullion-gold mt-1">•</span>
-                <span><strong className="text-white">Simple valuation</strong>: Gold content equals coin weight, making spot price calculations straightforward</span>
+                <span><strong className="text-white">Historical precedent</strong>: Same 22-karat standard used for historic U.S. gold coins and British sovereigns</span>
               </li>
             </ul>
             <p className="text-gray-400 text-sm mt-4">
-              Learn more about purity and composition at{" "}
+              Learn more about Gold Eagle specifications at{" "}
               <a
-                href="https://www.monex.com/knowledge/composition-purity-1-oz-gold-buffalo-coins/"
+                href="https://www.monex.com/knowledge-base/gold-investing/gold-coins/gold-american-eagles/"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
                 className="text-bullion-gold hover:underline"
@@ -194,7 +195,7 @@ export default function CoinSpecsPage() {
               Legal Tender Status
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              The American Gold Buffalo carries a <strong className="text-white">$50 face value</strong> and is official United States legal tender. This government backing provides:
+              The American Gold Eagle carries a <strong className="text-white">$50 face value</strong> and is official United States legal tender. This government backing provides:
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-white/5 rounded-lg p-4">
@@ -218,7 +219,7 @@ export default function CoinSpecsPage() {
               <div className="bg-white/5 rounded-lg p-4">
                 <h3 className="text-bullion-gold font-semibold mb-2">IRA Eligibility</h3>
                 <p className="text-gray-400 text-sm">
-                  Legal tender status is one requirement for Precious Metals IRA inclusion.
+                  Specifically named in IRS code as an approved asset for Precious Metals IRAs.
                 </p>
               </div>
             </div>
@@ -230,16 +231,16 @@ export default function CoinSpecsPage() {
               IRA Eligibility Considerations
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              American Gold Buffalo coins qualify for inclusion in a Precious Metals IRA (Self-Directed IRA). Key considerations:
+              American Gold Eagle coins qualify for inclusion in a Precious Metals IRA (Self-Directed IRA). Key considerations:
             </p>
             <ul className="space-y-3 text-gray-300 mb-4">
               <li className="flex items-start gap-3">
                 <span className="text-emerald-400">✓</span>
-                <span>Meets IRS purity requirement (.9999 exceeds .995 minimum)</span>
+                <span>Specifically named in IRS code as an approved gold investment</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-emerald-400">✓</span>
-                <span>Produced by an approved national mint (U.S. Mint)</span>
+                <span>Produced by the U.S. Mint (approved national mint)</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-emerald-400">✓</span>
@@ -263,7 +264,7 @@ export default function CoinSpecsPage() {
               Understanding Premium Drivers
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Gold Buffalo coins trade at a premium above the spot price of gold. Factors that influence premiums include:
+              Gold Eagle coins trade at a premium above the spot price of gold. Factors that influence premiums include:
             </p>
             <div className="space-y-4">
               <div className="border-l-2 border-bullion-gold/50 pl-4">
@@ -293,14 +294,14 @@ export default function CoinSpecsPage() {
               <div className="border-l-2 border-bullion-gold/50 pl-4">
                 <h3 className="text-white font-semibold">Product Recognition</h3>
                 <p className="text-gray-400 text-sm">
-                  The Buffalo&apos;s government backing and global recognition support competitive spreads.
+                  The Gold Eagle&apos;s government backing and global recognition support competitive spreads.
                 </p>
               </div>
             </div>
             <p className="text-gray-400 text-sm mt-4">
-              View current Gold Buffalo pricing at{" "}
+              View current Gold Eagle pricing at{" "}
               <a
-                href="https://www.monex.com/gold-american-buffalo-price-charts/"
+                href="https://www.monex.com/gold-american-eagle-price-charts/"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
                 className="text-bullion-gold hover:underline"
@@ -348,4 +349,3 @@ export default function CoinSpecsPage() {
     </>
   );
 }
-

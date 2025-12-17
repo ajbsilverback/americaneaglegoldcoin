@@ -7,16 +7,16 @@ type LiveGoldSpotCardProps = {
 };
 
 /**
- * Server Component - Fetches American Gold Buffalo (AB) price ONCE per page load
+ * Server Component - Fetches American Gold Eagle (AE) price ONCE per page load
  * 
- * Uses Monex API with symbol: AB (American Buffalo Gold Coin product pricing)
+ * Uses Monex API with symbol: AE (American Eagle Gold Coin product pricing)
  * This is PRODUCT-SPECIFIC pricing, NOT raw gold spot.
  * 
  * ABSOLUTELY NO setInterval, useEffect, or client-side polling.
  * This renders ONCE per page load and never refreshes again.
  */
 export default async function LiveGoldSpotCard({ showCta = true }: LiveGoldSpotCardProps) {
-  // Fetches AB (American Buffalo) pricing from Monex
+  // Fetches AE (American Eagle) pricing from Monex
   const data = await fetchProductSpot();
 
   // Error state - if data === null
@@ -24,7 +24,7 @@ export default async function LiveGoldSpotCard({ showCta = true }: LiveGoldSpotC
     return (
       <div className="max-w-3xl mx-auto rounded-xl border border-bullion-gold/30 shadow-md p-6 sm:p-10 bg-[#111]">
         <p className="text-gray-400 text-center text-lg">
-          American Gold Buffalo pricing ({SITE_CONFIG.productSymbol}) is temporarily unavailable.
+          American Gold Eagle pricing ({SITE_CONFIG.productSymbol}) is temporarily unavailable.
         </p>
       </div>
     );
@@ -39,7 +39,7 @@ export default async function LiveGoldSpotCard({ showCta = true }: LiveGoldSpotC
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-xl sm:text-2xl font-display font-semibold text-white">
-            American Gold Buffalo Price
+            American Gold Eagle Price
           </h2>
           <p className="text-xs text-gray-500 mt-1">
             Product pricing ({SITE_CONFIG.productSymbol})
@@ -61,7 +61,7 @@ export default async function LiveGoldSpotCard({ showCta = true }: LiveGoldSpotC
           <p className="text-5xl sm:text-6xl lg:text-7xl font-display font-extrabold tracking-tight gold-text">
             {formatUSD(data.ask)}
           </p>
-          <p className="text-lg text-gray-400 mt-2">per 1 oz Gold Buffalo</p>
+          <p className="text-lg text-gray-400 mt-2">per 1 oz Gold Eagle</p>
         </div>
       </div>
 
@@ -166,9 +166,9 @@ export default async function LiveGoldSpotCard({ showCta = true }: LiveGoldSpotC
 
       {/* Attribution */}
       <p className="text-xs text-gray-600 text-center pt-4 border-t border-bullion-gold/10">
-        American Gold Buffalo ({SITE_CONFIG.productSymbol}) pricing from{" "}
+        American Gold Eagle ({SITE_CONFIG.productSymbol}) pricing from{" "}
         <a
-          href="https://www.monex.com/american-buffalo-gold-coins-for-sale/"
+          href="https://www.monex.com/american-eagle-gold-coins-for-sale/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-bullion-gold hover:underline"
@@ -180,4 +180,3 @@ export default async function LiveGoldSpotCard({ showCta = true }: LiveGoldSpotC
     </div>
   );
 }
-

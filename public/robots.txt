@@ -1,6 +1,6 @@
-# https://www.americanbuffalogoldcoin.com robots.txt
+# https://www.americaneaglegoldcoin.com robots.txt
 
 User-agent: *
 Allow: /
 
-Sitemap: https://www.americanbuffalogoldcoin.com/sitemap.xml
+Sitemap: https://www.americaneaglegoldcoin.com/sitemap.xml
