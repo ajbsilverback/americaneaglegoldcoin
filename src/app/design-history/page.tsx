@@ -65,7 +65,9 @@ export default function DesignHistoryPage() {
               Augustus Saint-Gaudens (1848-1907)
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Augustus Saint-Gaudens is considered one of the foremost American sculptors. Born in Dublin, Ireland, and raised in New York City, he trained at the Cooper Union, the National Academy of Design, and the École des Beaux-Arts in Paris.
+              Augustus Saint-Gaudens is considered one of the foremost American sculptors. Born in Dublin, Ireland, and raised in New York City, he trained at the{" "}
+              <a href="https://cooper.edu/" target="_blank" rel="nofollow noopener noreferrer" className="text-bullion-gold hover:underline">Cooper Union</a>, the National Academy of Design, and the{" "}
+              <a href="https://www.beauxartsparis.fr/en" target="_blank" rel="nofollow noopener noreferrer" className="text-bullion-gold hover:underline">École des Beaux-Arts</a> in Paris.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Major works include the Robert Gould Shaw Memorial (Boston), the General William Tecumseh Sherman Monument (New York), and the Adams Memorial (Washington, D.C.).
