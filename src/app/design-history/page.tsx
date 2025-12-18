@@ -61,26 +61,41 @@ export default function DesignHistoryPage() {
 
           {/* Augustus Saint-Gaudens Section */}
           <section className="card p-6 md:p-8 mb-10">
-            <h2 className="text-2xl font-display font-semibold text-white mb-4">
-              Augustus Saint-Gaudens (1848-1907)
-            </h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Augustus Saint-Gaudens is considered one of the foremost American sculptors. Born in Dublin, Ireland, and raised in New York City, he trained at the{" "}
-              <a href="https://cooper.edu/" target="_blank" rel="nofollow noopener noreferrer" className="text-bullion-gold hover:underline">Cooper Union</a>, the National Academy of Design, and the{" "}
-              <a href="https://www.beauxartsparis.fr/en" target="_blank" rel="nofollow noopener noreferrer" className="text-bullion-gold hover:underline">École des Beaux-Arts</a> in Paris.
-            </p>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Major works include the Robert Gould Shaw Memorial (Boston), the General William Tecumseh Sherman Monument (New York), and the Adams Memorial (Washington, D.C.).
-            </p>
-            <p className="text-gray-300 leading-relaxed">
-              In 1905, President Theodore Roosevelt commissioned Saint-Gaudens to redesign American gold coinage. The resulting $10 and $20 gold pieces (1907) are widely regarded as among the most beautiful coins ever minted. Saint-Gaudens died in August 1907, shortly after the designs entered production.
-            </p>
+            <div className="grid md:grid-cols-12 gap-8 items-start">
+              <div className="md:col-span-4 flex justify-center">
+                <div className="relative w-48 h-64 md:w-56 md:h-72">
+                  <Image
+                    src="/Augustus-Saint-Gaudens.jpg"
+                    alt="Augustus Saint-Gaudens, American sculptor and coin designer"
+                    fill
+                    className="object-cover rounded-lg"
+                    sizes="(max-width: 768px) 192px, 224px"
+                  />
+                </div>
+              </div>
+              <div className="md:col-span-8">
+                <h2 className="text-2xl font-display font-semibold text-white mb-4">
+                  Augustus Saint-Gaudens (1848-1907)
+                </h2>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  Augustus Saint-Gaudens is considered one of the foremost American sculptors. Born in Dublin, Ireland, and raised in New York City, he trained at the{" "}
+                  <a href="https://cooper.edu/" target="_blank" rel="nofollow noopener noreferrer" className="text-bullion-gold hover:underline">Cooper Union</a>, the National Academy of Design, and the{" "}
+                  <a href="https://www.beauxartsparis.fr/en" target="_blank" rel="nofollow noopener noreferrer" className="text-bullion-gold hover:underline">École des Beaux-Arts</a> in Paris.
+                </p>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  Major works include the Robert Gould Shaw Memorial (Boston), the General William Tecumseh Sherman Monument (New York), and the Adams Memorial (Washington, D.C.).
+                </p>
+                <p className="text-gray-300 leading-relaxed">
+                  In 1905, President Theodore Roosevelt commissioned Saint-Gaudens to redesign American gold coinage. The resulting $10 and $20 gold pieces (1907) are widely regarded as among the most beautiful coins ever minted. Saint-Gaudens died in August 1907, shortly after the designs entered production.
+                </p>
+              </div>
+            </div>
           </section>
 
           {/* Obverse Design */}
           <section className="card p-6 md:p-8 mb-10 bg-bullion-gold/5 border-bullion-gold/30">
-            <div className="grid md:grid-cols-12 gap-8 items-start">
-              <div className="md:col-span-8">
+            <div className="grid md:grid-cols-12 gap-8 items-center">
+              <div className="md:col-span-7">
                 <h2 className="text-2xl font-display font-semibold text-white mb-4">
                   Obverse: Walking Liberty
                 </h2>
@@ -108,14 +123,14 @@ export default function DesignHistoryPage() {
                   Inscriptions include &ldquo;LIBERTY&rdquo; and the year of minting.
                 </p>
               </div>
-              <div className="md:col-span-4 flex justify-center">
-                <div className="relative w-48 h-48 md:w-56 md:h-56">
+              <div className="md:col-span-5 flex justify-center">
+                <div className="relative w-56 h-56 md:w-72 md:h-72">
                   <Image
                     src="/gold-american-eagles-obverse.png"
                     alt="American Gold Eagle obverse showing Walking Liberty design"
                     fill
                     className="object-contain"
-                    sizes="(max-width: 768px) 192px, 224px"
+                    sizes="(max-width: 768px) 224px, 288px"
                   />
                 </div>
               </div>
@@ -124,19 +139,19 @@ export default function DesignHistoryPage() {
 
           {/* Reverse Design */}
           <section className="card p-6 md:p-8 mb-10">
-            <div className="grid md:grid-cols-12 gap-8 items-start">
-              <div className="md:col-span-4 flex justify-center order-2 md:order-1">
-                <div className="relative w-48 h-48 md:w-56 md:h-56">
+            <div className="grid md:grid-cols-12 gap-8 items-center">
+              <div className="md:col-span-5 flex justify-center order-2 md:order-1">
+                <div className="relative w-56 h-56 md:w-72 md:h-72">
                   <Image
                     src="/gold-american-eagles-reverse.png"
                     alt="American Gold Eagle reverse showing eagle family design"
                     fill
                     className="object-contain"
-                    sizes="(max-width: 768px) 192px, 224px"
+                    sizes="(max-width: 768px) 224px, 288px"
                   />
                 </div>
               </div>
-              <div className="md:col-span-8 order-1 md:order-2">
+              <div className="md:col-span-7 order-1 md:order-2">
                 <h2 className="text-2xl font-display font-semibold text-white mb-4">
                   Reverse: Eagle Family
                 </h2>
